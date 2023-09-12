@@ -1,4 +1,9 @@
 #include <stdio.h>
+/**
+ * main -entry point
+ *
+ * return always
+*/
 int main(void)
 {
 int i, j, k;
