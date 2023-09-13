@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main _new line
+ * main - New line
  *
  * return 0
  */
