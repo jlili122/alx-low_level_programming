@@ -1,6 +1,11 @@
 #include <stdio.h>
-int main(void) {
-//print "H_putchar and a new line"	
+/**
+ * main _new line
+ *
+ * return 0
+ */
+int main(void)
+{	
 printf("_putchar\n");
 return 0;
 }
