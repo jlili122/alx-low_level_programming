@@ -6,7 +6,6 @@
  */
 int main(void)
 {
-//print "_putchar" and a new line
 printf("_putchar\n");
 return (0);
 }
