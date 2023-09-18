@@ -1,12 +1,9 @@
 #include <stdio.h>
-
 #define MAX_PASSWORD_LENGTH 100
-
 int main(void)
 {
 char password[MAX_PASSWORD_LENGTH + 1];
 int password_length;
-
 password_length = 10; /* Assign this based on your logic. */
 if (password_length > MAX_PASSWORD_LENGTH)
 {
