@@ -1,15 +1,18 @@
-#ifndef FILE_MAIN
-#define FILE_MAIN
-
-int _putchar(char c);
-void _puts_recursion(char *s);
-void _print_rev_recursion(char *s);
-int _strlen_recursion(char *s);
-int factorial(int n);
-int _pow_recursion(int x, int y);
-
-
-
-
-
-#endif
+#include "main.h"
+#include <stdio.h>
+/**
+ * _puts_recursion - _puts_recursion
+ * @s: the address of memory to print
+ *
+ * Return: Nothing.
+ */
+void _puts_recursion(char *s)
+{
+if (*s == '\0')
+{
+_putchar('\n');
+return;
+}
+_putchar(*s);
+_puts_recursion(++s);
+}
